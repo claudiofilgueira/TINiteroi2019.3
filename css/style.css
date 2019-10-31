@@ -1,0 +1,285 @@
+.tamanhoCamisa{
+    
+    border: solid 1px #000;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    align-content: center;
+}
+table{
+    position: absolute;
+    top: 53%;
+    left: 81%;
+}
+.borda{border: solid 1px red;}
+.clear{clear: both;}
+.container{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .esq{
+        width: 60%;
+        float: left;
+    }
+     .dir{
+        width: 60%;
+        float: right;
+    }
+    .caixa{
+        min-height: 500px;
+    }
+
+.f-left{
+    
+    float: left;
+    margin: 0px 5px 10px 0 !important;
+ 
+}
+.form-group{
+    margin: 5px 0;
+}
+.form-group label{
+    display: inline-block;
+    width: 12%;
+    font-weight: bolder;  
+    
+}
+.form-group input, select, textarea{
+    color:#009d91;
+    width: 80%;
+    box-shadow: 10px 5px 15px #000;
+    height: 30px;
+}
+.form-group input[type="text"]{
+    text-transform: uppercase;
+    
+}
+
+.form-group input[type="radio"], .form-group input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    
+}
+.endereco select{
+    width: 60px;
+}
+.endereco input{
+    width: 58%;
+}
+img{
+    max-width: 100%;
+}
+
+    .caixa img{
+        max-width: 100%;
+        border-radius: 35px 0;
+        box-shadow: 15px 10px 15px #000;
+        transform: rotate(15deg);
+        margin-top: 25px;
+    }
+    .dir + figure img{
+        transform: rotate(-15deg);
+    }
+     p + figure{
+        width: 29%;
+    }
+
+ul.galeria{
+    min-height: 1170px;
+}
+
+.galeria li{
+    width: calc(90%/3);
+    min-height: 380px;
+    list-style: none;
+    text-align: center;
+    float:left; 
+    
+}
+.galeria button{
+    height: 35px;
+    width: 150px;
+    background-color: darkgoldenrod;
+    border-radius: 35px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    
+}
+
+    body{
+        font-family: cursive;/*Regra para definir o tipo de uma fonte*/
+        background-color: #009d91;
+    }
+main{
+  height: auto;
+}
+    
+    #logo{
+        
+        width: 200px;
+        float: left;
+    }
+    #banner{
+        width: 550px;
+    }
+    
+    
+    figure{
+        float: left;
+        max-width: 100%;
+    } 
+    
+  nav ul{
+        height: 35px;
+    }
+    
+    
+   nav li{
+       border: solid 1px orange;
+        list-style: none;
+        float: left;
+        width: calc(90%/4);
+        height: inherit;
+        text-align: center;
+        line-height: 1.8em;
+        font-size: 1.3em;
+        border-radius: 35px 0;
+    }
+    nav li:last-child{
+        border: none;
+        width: 280px;
+    }
+    
+    a{
+        
+        text-decoration: none;
+        height: inherit;
+        display: block;
+        border-radius: 35px 0;
+        text-transform: uppercase;
+        color: #f7a700;
+        
+    }
+    
+    li a:hover{
+        
+        background-color: orange;
+        color: white;
+    }
+    
+   .caixa p{
+        
+        font-size: 18px;/*Define o tamanho da fonte*/
+        text-indent: 40px;/*Configura o espaçamento da primeira linha 
+        do parágrafo*/
+        color: #00675f;
+        text-align: justify;
+        line-height: 1.5em;
+        margin-top: 10px;
+        border-top: double 3px red;
+        border-bottom: double 3px orange;
+        border-radius: 15px 35px;
+        padding: 10px;
+        box-shadow: 15px 10px 15px #000;
+    }
+    header{
+        
+        height: 315px;
+    }
+    header section{
+        height: 250px;
+    } 
+    mark{
+        
+        background-color: #ffa700;
+    }
+    
+    p::selection{
+        background-color: #9b81ff;
+    }
+    .caixa p::first-letter{
+        
+        font-family: 'Holtwood One SC', serif;
+        font-size: 3em;
+        
+    }
+footer{
+    background-color: #000;
+    height: 540px;
+    color:#fff;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+footer address{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+footer section{
+    
+    float: left;
+    width: calc(90%/3.3);
+    height: 500px;
+    margin: 0 2.5%;
+}
+footer iframe{
+    max-width: 100%;
+}
+
+footer p a{
+    color:#fff;
+}
+textarea{
+    width: 92.5%; 
+    height: 15%;
+    font-size: 1.5em;
+}
+    
+    
+    
+/*Configuração para tela de tamanho a partir de 1120px*/    
+@media screen and (min-width: 1120px){
+    h1{
+        background-color: orange !important;
+        color:#fff !important;
+    }
+      
+}
+/*Configuração para tela de tamanho abaixo de 1119px*/
+@media screen and (max-width: 1119px){
+    
+    table{
+        display: none;
+    }
+}
+
+/*Configuração para tela entre 600px e 1118px*/
+
+@media screen and (min-width: 600px) and (max-width: 1118px) { 
+    h1{
+        background-color: blue !important;
+        color:#fff !important;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
